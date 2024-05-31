@@ -1,0 +1,8 @@
+from _decimal import Decimal 
+
+numero = int(input())
+hora_trabalhada = int(input())
+valor_hora = Decimal(input())
+salario = hora_trabalhada * valor_hora
+print(f'NUMBER = {numero}')
+print(f'SALARY = U$ {salario.__round__(2)}')
