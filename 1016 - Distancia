@@ -1,0 +1,5 @@
+distancia = int(input())
+velocidade_relativa = 90 - 60  
+tempo_horas = distancia / velocidade_relativa
+tempo_minutos = tempo_horas * 60
+print(int(tempo_minutos), "minutos")
