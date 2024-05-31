@@ -1,0 +1,4 @@
+tempo = int(input())
+velocidade = int(input())
+distancia = velocidade * tempo / 12
+print(f'{distancia:.3f}')
