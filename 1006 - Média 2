@@ -1,0 +1,13 @@
+from _decimal import Decimal
+
+notaA = Decimal(input())
+notaB = Decimal(input())
+notaC = Decimal(input())
+pesoA = 2
+pesoB = 3
+pesoC = 5
+p1 = Decimal(pesoA)
+p2 = Decimal(pesoB)
+p3 = Decimal(pesoC)
+media = ((notaA * pesoA) + (notaB * pesoB) + (notaC * pesoC)) / (p1 + p2 + p3)
+print(f'MEDIA = {media.__round__(1)}')
